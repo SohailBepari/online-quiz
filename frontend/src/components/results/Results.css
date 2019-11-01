@@ -1,0 +1,22 @@
+.answer-block,.marks-block{
+    width: 40vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 4vh;
+    padding: 10px;  
+}
+.question-block-results {
+    background-color: white;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5vh;
+    padding: 10px;
+    width: 40vw;
+    box-shadow: 0.5rem 1rem 1rem rgba(0,0,0,0.3) !important;
+}
+@media only screen and (max-width: 720px) {
+    .answer-block,.marks-block,.question-block-results{
+        width: 90%;
+    }
+  }

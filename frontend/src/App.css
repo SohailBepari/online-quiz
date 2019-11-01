@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ), url('./components/images/wall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100%;
+  }
+
+  .container{
+    position: relative;
+    bottom: 20px;
+  }
+
+  @media only screen and (max-width: 720px){
+    html,body{
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3) ), url('./components/images/wall2.jpg');
+      background-repeat: repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  }

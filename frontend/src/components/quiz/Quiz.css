@@ -1,0 +1,50 @@
+.timer-block{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.alert-block{
+    border-radius:10px;
+    width: 40vw;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    top : 10vh;
+}
+.progress-block{
+    width : 40vw;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    top : 10vh;
+}
+.question-block {
+    background-color: white;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 15vh;
+    padding: 10px;
+    width: 40vw;
+    box-shadow: 0.5rem 1rem 1rem rgba(0,0,0,0.3) !important;
+}
+.button-block{
+    width: 40vw;
+}
+input[type="submit"]{
+    margin-top: 5vh;
+}
+@media only screen and (max-width: 720px) {
+    .question-block,.button-block{
+        width: 90%;
+        margin-top: 10vh;
+    }
+    .alert-block{
+        width:90%;
+        top : 5vh;
+    }
+    .progress-block{
+        top : 5vh;
+        width: 90%;
+    }
+  }

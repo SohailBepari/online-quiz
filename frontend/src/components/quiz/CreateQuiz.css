@@ -1,0 +1,12 @@
+.container{
+    margin-top: 40px;
+}
+.heading{
+    background-color: white;
+    color: #007bff;
+    border-radius: 10px;
+    max-width: 60%;
+}
+.submit {
+    float: right;
+}

@@ -1,0 +1,18 @@
+.form-inline{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+}
+.topic{
+    margin-top: 5vh;
+}
+.card-title{
+    color: black;
+}
+.card-text{
+    color: grey;
+}

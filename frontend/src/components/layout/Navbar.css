@@ -1,0 +1,14 @@
+.bgprimary{
+    background-color: #212A3B
+}
+.navbar-nav li a{
+    line-height: 40px;
+    height: 35px;
+    padding-top: 0;
+}
+a{
+    height: 40px;
+}
+.logout{
+    cursor: pointer;
+}
